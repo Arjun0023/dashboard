@@ -61,7 +61,7 @@ src
 ## Deployment  
 
 The app is deployed on **[Vercel](https://fireai-dashboard-three.vercel.app/)**. You can view the live version here:  
-**[Live Demo](#)** (Replace `#` with the live link)  
+**[Live Demo](#)**  
 
 ---
 
