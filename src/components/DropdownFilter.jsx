@@ -134,7 +134,7 @@ function DropdownFilter({ align }) {
                   className="form-checkbox"
                 />
                 <span className="text-sm font-medium ml-2">
-                  Sales VS Refunds
+                  Sales VS Service Issues
                 </span>
               </label>
             </li>

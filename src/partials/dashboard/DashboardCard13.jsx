@@ -4,114 +4,73 @@ function DashboardCard13() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white dark:bg-gray-800 shadow-sm rounded-xl">
       <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-        <h2 className="font-semibold text-gray-800 dark:text-gray-100">Income/Expenses</h2>
+        <h2 className="font-semibold text-gray-800 dark:text-gray-100">Service & Sales Dispute Summary</h2>
       </header>
       <div className="p-3">
 
-        {/* Card content */}
-        {/* "Today" group */}
         <div>
-          <header className="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700 dark:bg-opacity-50 rounded-sm font-semibold p-2">Today</header>
+          <header className="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700 dark:bg-opacity-50 rounded-sm font-semibold p-2">
+            Today’s Highlights
+          </header>
           <ul className="my-1">
-            {/* Item */}
+
+            {/* Heating Issue */}
             <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-red-500 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-white" viewBox="0 0 36 36">
-                  <path d="M17.7 24.7l1.4-1.4-4.3-4.3H25v-2H14.8l4.3-4.3-1.4-1.4L11 18z" />
-                </svg>
-              </div>
+              <div className="w-9 h-9 rounded-full shrink-0 bg-red-500 my-2 mr-3 flex items-center justify-center text-white font-bold">H</div>
               <div className="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Qonto</a> billing</div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-gray-800 dark:text-gray-100">-$49.88</span>
-                  </div>
+                  <div className="self-center">Overheating complaints from SUV owners</div>
+                  <div className="shrink-0 self-start ml-2 text-red-600 font-medium">+12 cases</div>
                 </div>
               </div>
             </li>
-            {/* Item */}
+
+            {/* Charging Issue */}
             <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-green-500 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-white" viewBox="0 0 36 36">
-                  <path d="M18.3 11.3l-1.4 1.4 4.3 4.3H11v2h10.2l-4.3 4.3 1.4 1.4L25 18z" />
-                </svg>
-              </div>
+              <div className="w-9 h-9 rounded-full shrink-0 bg-yellow-500 my-2 mr-3 flex items-center justify-center text-white font-bold">C</div>
               <div className="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Cruip.com</a> Market Ltd 70 Wilson St London</div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-green-600">+249.88</span>
-                  </div>
+                  <div className="self-center">Slow charging reported in EV models</div>
+                  <div className="shrink-0 self-start ml-2 text-yellow-600 font-medium">+8 cases</div>
                 </div>
               </div>
             </li>
-            {/* Item */}
+
+            {/* Braking Issue */}
             <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-green-500 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-white" viewBox="0 0 36 36">
-                  <path d="M18.3 11.3l-1.4 1.4 4.3 4.3H11v2h10.2l-4.3 4.3 1.4 1.4L25 18z" />
-                </svg>
-              </div>
+              <div className="w-9 h-9 rounded-full shrink-0 bg-orange-500 my-2 mr-3 flex items-center justify-center text-white font-bold">B</div>
               <div className="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Notion Labs Inc</a></div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-green-600">+99.99</span>
-                  </div>
+                  <div className="self-center">Brake pad failure in recent deliveries</div>
+                  <div className="shrink-0 self-start ml-2 text-orange-600 font-medium">+5 cases</div>
                 </div>
               </div>
             </li>
-            {/* Item */}
+
+            {/* Loan Issue */}
             <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-green-500 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-white" viewBox="0 0 36 36">
-                  <path d="M18.3 11.3l-1.4 1.4 4.3 4.3H11v2h10.2l-4.3 4.3 1.4 1.4L25 18z" />
-                </svg>
-              </div>
+              <div className="w-9 h-9 rounded-full shrink-0 bg-blue-500 my-2 mr-3 flex items-center justify-center text-white font-bold">L</div>
               <div className="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Market Cap Ltd</a></div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-green-600">+1,200.88</span>
-                  </div>
+                  <div className="self-center">Loan approval delays with partner banks</div>
+                  <div className="shrink-0 self-start ml-2 text-blue-600 font-medium">+6 issues</div>
                 </div>
               </div>
             </li>
-            {/* Item */}
+
+            {/* Warranty Issue */}
             <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-gray-200 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-gray-400" viewBox="0 0 36 36">
-                  <path d="M21.477 22.89l-8.368-8.367a6 6 0 008.367 8.367zm1.414-1.413a6 6 0 00-8.367-8.367l8.367 8.367zM18 26a8 8 0 110-16 8 8 0 010 16z" />
-                </svg>
-              </div>
-              <div className="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
-                <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a> Market Ltd 70 Wilson St London</div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-gray-800 dark:text-gray-100 line-through">+$99.99</span>
-                  </div>
-                </div>
-              </div>
-            </li>
-            {/* Item */}
-            <li className="flex px-2">
-              <div className="w-9 h-9 rounded-full shrink-0 bg-red-500 my-2 mr-3">
-                <svg className="w-9 h-9 fill-current text-white" viewBox="0 0 36 36">
-                  <path d="M17.7 24.7l1.4-1.4-4.3-4.3H25v-2H14.8l4.3-4.3-1.4-1.4L11 18z" />
-                </svg>
-              </div>
+              <div className="w-9 h-9 rounded-full shrink-0 bg-gray-500 my-2 mr-3 flex items-center justify-center text-white font-bold">W</div>
               <div className="grow flex items-center text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a> Market Ltd 70 Wilson St London</div>
-                  <div className="shrink-0 self-start ml-2">
-                    <span className="font-medium text-gray-800 dark:text-gray-100">-$49.88</span>
-                  </div>
+                  <div className="self-center">Unfulfilled warranty claims from last week</div>
+                  <div className="shrink-0 self-start ml-2 text-gray-800 dark:text-gray-100 font-medium">+10 pending</div>
                 </div>
               </div>
             </li>
+
           </ul>
         </div>
-
       </div>
     </div>
   );
